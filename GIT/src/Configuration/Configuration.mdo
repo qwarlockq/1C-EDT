@@ -39,6 +39,8 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Игры</subsystems>
+  <commonPictures>CommonPicture.Игры</commonPictures>
+  <commonPictures>CommonPicture.Старт</commonPictures>
   <commonCommands>CommonCommand.ОткрытьЗмейку</commonCommands>
   <dataProcessors>DataProcessor.Змейка</dataProcessors>
 </mdclass:Configuration>

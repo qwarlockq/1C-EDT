@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="342086ef-b919-4add-b59d-e9f16a06dd8b">
+  <producedTypes>
+    <objectType typeId="28e43c40-c1a1-4bbf-b88e-0aa8ee2644ce" valueTypeId="e087fda7-b4e7-4cd9-bbc8-064af8de9379"/>
+    <managerType typeId="a3e01cda-6115-4f4b-a393-35094b01ed40" valueTypeId="7b6dd72b-2400-4ae1-9e87-b4541799fdad"/>
+  </producedTypes>
+  <name>Змейка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Змейка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Змейка.Form.Форма</defaultForm>
+  <forms uuid="6ba26b9a-a274-429b-a68c-627c4921c28a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="040c3690-8fad-4a3a-ae36-c2a919ca11f0">
+    <name>Поле</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

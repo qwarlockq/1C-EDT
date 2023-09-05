@@ -42,5 +42,7 @@
   <commonPictures>CommonPicture.Игры</commonPictures>
   <commonPictures>CommonPicture.Старт</commonPictures>
   <commonCommands>CommonCommand.ОткрытьЗмейку</commonCommands>
+  <enums>Enum.Игры</enums>
   <dataProcessors>DataProcessor.Змейка</dataProcessors>
+  <informationRegisters>InformationRegister.ТаблицаЛидеров</informationRegisters>
 </mdclass:Configuration>

@@ -38,5 +38,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Игры</subsystems>
+  <commonCommands>CommonCommand.ОткрытьЗмейку</commonCommands>
   <dataProcessors>DataProcessor.Змейка</dataProcessors>
 </mdclass:Configuration>

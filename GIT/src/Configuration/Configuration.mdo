@@ -39,10 +39,19 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Игры</subsystems>
+  <styles>Style.Травиан</styles>
+  <commonPictures>CommonPicture.Бот</commonPictures>
   <commonPictures>CommonPicture.Игры</commonPictures>
+  <commonPictures>CommonPicture.НСИ</commonPictures>
   <commonPictures>CommonPicture.Старт</commonPictures>
+  <commonCommands>CommonCommand.ОткрытьБота</commonCommands>
   <commonCommands>CommonCommand.ОткрытьЗмейку</commonCommands>
+  <constants>Constant.АдресОтправкиВойск</constants>
+  <catalogs>Catalog.Постройки</catalogs>
+  <catalogs>Catalog.ТипыВойск</catalogs>
+  <enums>Enum.Задания</enums>
   <enums>Enum.Игры</enums>
+  <dataProcessors>DataProcessor.Бот</dataProcessors>
   <dataProcessors>DataProcessor.Змейка</dataProcessors>
   <informationRegisters>InformationRegister.ТаблицаЛидеров</informationRegisters>
 </mdclass:Configuration>

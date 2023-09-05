@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2abc7add-b023-4536-a1ad-5255d4203f0c">
+  <name>Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Постройки</content>
+  <content>Catalog.ТипыВойск</content>
+  <content>Constant.АдресОтправкиВойск</content>
+  <parentSubsystem>Subsystem.Игры.Subsystem.Travian</parentSubsystem>
+</mdclass:Subsystem>

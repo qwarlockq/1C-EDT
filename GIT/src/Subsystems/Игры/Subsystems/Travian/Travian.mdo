@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ad99b61-5980-44ae-bf1f-c66ea67fad6a">
+  <name>Travian</name>
+  <synonym>
+    <key>ru</key>
+    <value>Travian</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Бот</picture>
+  </picture>
+  <content>CommonPicture.Бот</content>
+  <content>Style.Травиан</content>
+  <content>CommonCommand.ОткрытьБота</content>
+  <subsystems>Настройки</subsystems>
+  <parentSubsystem>Subsystem.Игры</parentSubsystem>
+</mdclass:Subsystem>

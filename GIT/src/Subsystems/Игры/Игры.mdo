@@ -10,6 +10,6 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Игры</picture>
   </picture>
-  <content>InformationRegister.ТаблицаЛидеров</content>
+  <subsystems>Travian</subsystems>
   <subsystems>СписокИгр</subsystems>
 </mdclass:Subsystem>

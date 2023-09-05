@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40853dfe-4756-45b4-922b-386a6e01c3b0">
+  <producedTypes>
+    <refType typeId="edb5da87-98d7-488f-83db-ef46d9e99d7b" valueTypeId="eefb5c5c-dd06-42dc-b44d-185ff2098f69"/>
+    <listType typeId="5707412c-8608-4347-9d9a-6404b5d4d7a7" valueTypeId="b8b1edb1-7c16-4677-8d50-89aedd0df9b4"/>
+    <managerType typeId="cf42ab19-336e-4d6f-accb-cd8cbb036982" valueTypeId="159f2ca1-72f2-46f0-b034-eaba46ff7a4b"/>
+  </producedTypes>
+  <name>Игры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Игры</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3b0925cd-da53-4a3d-9e43-d06c1f37b037">
+    <name>Змейка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Змейка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

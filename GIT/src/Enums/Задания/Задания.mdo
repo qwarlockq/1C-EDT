@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5d91347-cffd-4665-8473-9df6a46a4c3f">
+  <producedTypes>
+    <refType typeId="f48cab7a-6927-410f-af28-3f51bdc8e2ac" valueTypeId="8070baee-f76e-40c9-b6f8-27291287a997"/>
+    <listType typeId="43e21d25-ff63-4f8c-ad1b-71b2baacbd10" valueTypeId="1bdcf4c4-2ec5-496a-a674-a76c071bde2b"/>
+    <managerType typeId="d58e1abf-09f6-47b6-b3b4-1cdfed171f12" valueTypeId="a2e0e823-56a2-470d-bd63-c998ef6a7802"/>
+  </producedTypes>
+  <name>Задания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задания</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2c8c09a0-41e2-47e6-b9d3-26e34b9d9bc6">
+    <name>УлучшитьПостройку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Улучшить постройку</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5996e347-6b81-46ea-8989-013d2b73d627">
+    <name>ОбучитьЮнитов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обучить юнитов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7ccfdec8-1a4c-4d1f-93de-f01484002771">
+    <name>ПерейтиНаСтраницу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перейти на страницу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="07926e61-a274-43c5-a456-c2ffafc7962d">
+    <name>Набег</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набег</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

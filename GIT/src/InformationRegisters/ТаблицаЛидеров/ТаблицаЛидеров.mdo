@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6f44907-9119-4e11-bde6-68cffbf6667c">
+  <producedTypes>
+    <selectionType typeId="535e9323-89ac-4225-92a3-054ddf61fe8d" valueTypeId="c51942ad-9f5b-4c45-9741-a42a6fad7367"/>
+    <listType typeId="3e9b646a-2a68-455a-ad43-6adf58b8505e" valueTypeId="e8308ced-e983-41af-a3ac-b1cba06c26e1"/>
+    <managerType typeId="eddaa423-25da-43bb-8f4a-0ee3bd922028" valueTypeId="53efdc9e-233c-4142-8ead-56e4107213fc"/>
+    <recordSetType typeId="55f530e4-025d-4d02-b163-991125f50f4f" valueTypeId="2948b94a-c7f0-42a7-9de6-f0c1c60eaf63"/>
+    <recordKeyType typeId="61ddaaa2-f64b-48d4-b721-54027dfac671" valueTypeId="a7c54111-fc83-4c64-ae81-be62d41fce8b"/>
+    <recordType typeId="e7fde6b6-0f21-49b9-acb9-993c94107607" valueTypeId="74cafd3d-28d8-40f0-be8b-7973074ad4dd"/>
+    <recordManagerType typeId="63cb2110-697d-4219-bb9a-7a701fcb07e2" valueTypeId="d4874053-6a5b-4b06-937b-43c930557827"/>
+  </producedTypes>
+  <name>ТаблицаЛидеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таблица лидеров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="00def370-e4ef-42ce-ac91-3810237a6049">
+    <name>КоличествоОчков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество очков</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bb8c4d90-9411-4756-81ca-0d082a889dc5">
+    <name>Игрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игрок</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="37e3f539-8472-4eae-bf0a-c889d4a08b1a">
+    <name>Игра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игра</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Игры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

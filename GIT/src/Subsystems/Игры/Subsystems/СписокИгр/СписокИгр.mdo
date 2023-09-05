@@ -8,5 +8,6 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonCommand.ОткрытьЗмейку</content>
+  <content>InformationRegister.ТаблицаЛидеров</content>
   <parentSubsystem>Subsystem.Игры</parentSubsystem>
 </mdclass:Subsystem>

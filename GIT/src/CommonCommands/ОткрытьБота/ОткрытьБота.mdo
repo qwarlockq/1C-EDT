@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="203be2b8-8be3-43ed-992c-dcd6ab13e3fd">
+  <name>ОткрытьБота</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бот Travian</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

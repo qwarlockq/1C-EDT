@@ -10,5 +10,6 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Игры</picture>
   </picture>
+  <subsystems>Travian</subsystems>
   <subsystems>СписокИгр</subsystems>
 </mdclass:Subsystem>

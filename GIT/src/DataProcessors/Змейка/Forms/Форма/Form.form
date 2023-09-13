@@ -445,6 +445,7 @@
           </userVisible>
           <autoFill>true</autoFill>
         </contextMenu>
+        <readOnly>true</readOnly>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <autoMaxRowsCount>true</autoMaxRowsCount>

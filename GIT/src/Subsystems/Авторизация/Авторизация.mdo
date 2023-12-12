@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84951043-b2e4-4a66-bd7f-a8c70b29c21a">
+  <name>Авторизация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Авторизация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Авторизация</picture>
+  </picture>
+  <content>InformationRegister.ЗаданияАвторизации</content>
+  <content>Enum.ВидЗаданийАвторизации</content>
+  <content>Enum.СтатусЗаданийАвторизации</content>
+  <content>Catalog.СценарииВыполненияАвторизации</content>
+  <content>DataProcessor.Авторизация</content>
+  <content>CommonCommand.ОткрытьАвторизацию</content>
+  <content>CommonPicture.Авторизация</content>
+</mdclass:Subsystem>

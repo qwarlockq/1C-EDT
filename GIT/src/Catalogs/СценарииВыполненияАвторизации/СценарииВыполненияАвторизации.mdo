@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf070c8e-655d-4027-9817-08f2d32a2e02">
+  <producedTypes>
+    <objectType typeId="0bf61ef1-c395-49e1-a5de-3301c96ee864" valueTypeId="bfa8331b-1281-4d3e-bf3d-84d0e7bdf50e"/>
+    <refType typeId="7a6cf757-c359-4f19-8e2f-04a4ef156429" valueTypeId="59842af8-f259-4337-be16-30a90471e481"/>
+    <selectionType typeId="df7fd9a0-8e44-4490-83bc-7b8a82acd357" valueTypeId="3b049389-0494-499f-a40d-218fe991b901"/>
+    <listType typeId="24c703d2-5ef8-4b79-b03d-5988661e5044" valueTypeId="0776b347-cb44-45b5-b759-16ef4773738c"/>
+    <managerType typeId="45eceaa2-953b-4018-a97f-9912667ca9ad" valueTypeId="b0748692-f14a-4033-b252-52b0fceac829"/>
+  </producedTypes>
+  <name>СценарииВыполненияАвторизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сценарии выполнения авторизации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СценарииВыполненияАвторизации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СценарииВыполненияАвторизации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="2fcdf3ed-5c0b-4832-8cea-b1a7ac62faec">
+      <name>Авторизация</name>
+      <description>Авторизация</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="96e04a79-68de-4dc2-a772-7cdc1fc600be">
+      <name>ВводКода</name>
+      <description>Ввод кода</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СценарииВыполненияАвторизации.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="04941853-76ec-4fd8-89d3-36066a461120">
+    <name>ТекстСценария</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сценария</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5e16dd0f-bfc5-4caf-8bdf-6d984ace160a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

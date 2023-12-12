@@ -15,6 +15,7 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <vendor>WarLock</vendor>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -27,8 +28,6 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
-  <modalityUseMode>DontUse</modalityUseMode>
-  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <compatibilityMode>8.3.22</compatibilityMode>
   <languages uuid="490eb1d2-ad13-46da-9cd0-60b767e6e439">
     <name>Русский</name>
@@ -38,20 +37,30 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Авторизация</subsystems>
   <subsystems>Subsystem.Игры</subsystems>
   <styles>Style.Травиан</styles>
+  <commonPictures>CommonPicture.Авторизация</commonPictures>
   <commonPictures>CommonPicture.Бот</commonPictures>
   <commonPictures>CommonPicture.Игры</commonPictures>
   <commonPictures>CommonPicture.НСИ</commonPictures>
+  <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
   <commonPictures>CommonPicture.Старт</commonPictures>
+  <httpServices>HTTPService.auth</httpServices>
+  <commonCommands>CommonCommand.ОткрытьАвторизацию</commonCommands>
   <commonCommands>CommonCommand.ОткрытьБота</commonCommands>
   <commonCommands>CommonCommand.ОткрытьЗмейку</commonCommands>
   <constants>Constant.АдресОтправкиВойск</constants>
   <catalogs>Catalog.Постройки</catalogs>
+  <catalogs>Catalog.СценарииВыполненияАвторизации</catalogs>
   <catalogs>Catalog.ТипыВойск</catalogs>
+  <enums>Enum.ВидЗаданийАвторизации</enums>
   <enums>Enum.Задания</enums>
   <enums>Enum.Игры</enums>
+  <enums>Enum.СтатусЗаданийАвторизации</enums>
+  <dataProcessors>DataProcessor.Авторизация</dataProcessors>
   <dataProcessors>DataProcessor.Бот</dataProcessors>
   <dataProcessors>DataProcessor.Змейка</dataProcessors>
+  <informationRegisters>InformationRegister.ЗаданияАвторизации</informationRegisters>
   <informationRegisters>InformationRegister.ТаблицаЛидеров</informationRegisters>
 </mdclass:Configuration>

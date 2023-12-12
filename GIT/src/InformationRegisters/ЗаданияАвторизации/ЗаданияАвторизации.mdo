@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f6fd2a1-b135-445f-8ba4-b5695c693b6f">
+  <producedTypes>
+    <selectionType typeId="0a840acb-4eeb-4f74-b446-8fe3a3f377b1" valueTypeId="dae43113-6cf3-4922-9e68-75084fa74e5a"/>
+    <listType typeId="4279348e-e34b-4fe7-9078-319f3fe1cd1e" valueTypeId="e2247bd2-9b7f-475d-a670-466e24b0219e"/>
+    <managerType typeId="251362a4-d976-4eba-9548-73f7d6d5e7c1" valueTypeId="7fa667e6-629b-488b-9dcc-d55541b5bb83"/>
+    <recordSetType typeId="f55973ce-1da8-4b57-9f5c-833d8009da80" valueTypeId="f1f92c8f-439b-4c96-aec4-f4fb083a19d9"/>
+    <recordKeyType typeId="bda5de8a-9e7c-4f1b-bd3d-0ec6c36a7afa" valueTypeId="abbf6fa0-a153-4e92-860a-67638d71a5ec"/>
+    <recordType typeId="fe2721b4-4d88-44c7-bea5-39d86da6a68e" valueTypeId="57791b0d-6845-4789-9237-806f721e81b5"/>
+    <recordManagerType typeId="e4d44760-feaf-467c-a42d-1b66c2d82cd6" valueTypeId="d9d7f58d-f059-4f26-a20f-85191802c347"/>
+  </producedTypes>
+  <name>ЗаданияАвторизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задания авторизации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="975f35a2-a5fe-4e47-83d2-2df014dc5619">
+    <name>СтатусЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус задания</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусЗаданийАвторизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="ffd6871c-4e93-4425-bf36-53c16b4c9b7d">
+    <name>КодАвторизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код авторизации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="74b4fc8c-d665-4235-8a99-3c88d5a1140c">
+    <name>ВидЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид задания</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидЗаданийАвторизации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

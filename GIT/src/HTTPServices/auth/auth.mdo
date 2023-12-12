@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2ec5d99-e271-4feb-8da4-fe0f2d05adb9">
+  <name>auth</name>
+  <synonym>
+    <key>ru</key>
+    <value>Auth</value>
+  </synonym>
+  <rootURL>auth</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="4eb5f815-f5b7-4381-bca4-f3554720d6e9">
+    <name>code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Code</value>
+    </synonym>
+    <template>/code/*</template>
+    <methods uuid="4a57330f-0bc4-48de-a40c-1fbf7a091da0">
+      <name>ВводКода</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ввод кода</value>
+      </synonym>
+      <handler>codeВводКода</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="41aa1489-fe4b-4c11-8fb1-7c349960324d">
+    <name>login</name>
+    <synonym>
+      <key>ru</key>
+      <value>Login</value>
+    </synonym>
+    <template>/login/*</template>
+    <methods uuid="d8d47c9f-313b-46dc-b425-cdcec9d26d74">
+      <name>Авторизация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Авторизация</value>
+      </synonym>
+      <handler>loginАвторизация</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

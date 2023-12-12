@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae7a771e-c7d4-48df-be38-e080f046a8c6">
+  <producedTypes>
+    <refType typeId="e180c45f-0a38-4840-9948-9dad2fcd9384" valueTypeId="14967963-2527-4613-b6de-43a39888af12"/>
+    <listType typeId="0af8abe7-ef55-4cbc-b954-48c39d7fbc26" valueTypeId="c53d1f57-6aa6-4e59-8eb5-fc31ecbc6ef2"/>
+    <managerType typeId="44a259c3-bda6-478a-bf12-7c2f738270de" valueTypeId="64f27914-1871-4387-a148-ae75aecebadb"/>
+  </producedTypes>
+  <name>ВидЗаданийАвторизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид заданий авторизации</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="253ad9ce-dce6-44be-90cb-4ed623fac977">
+    <name>Авторизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авторизация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a7b80b97-fac5-46d4-9bdf-35de79cc8155">
+    <name>ВводКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод кода</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

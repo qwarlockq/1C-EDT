@@ -40,4 +40,20 @@
       <handler>loginАвторизация</handler>
     </methods>
   </urlTemplates>
+  <urlTemplates uuid="98185817-b704-4dff-843c-2b09277fcd9c">
+    <name>anydesk</name>
+    <synonym>
+      <key>ru</key>
+      <value>Anydesk</value>
+    </synonym>
+    <template>/*</template>
+    <methods uuid="b69a3371-fca6-4591-8752-dff4133a297f">
+      <name>Энидеск</name>
+      <synonym>
+        <key>ru</key>
+        <value>Энидеск</value>
+      </synonym>
+      <handler>anydeskЭнидеск</handler>
+    </methods>
+  </urlTemplates>
 </mdclass:HTTPService>

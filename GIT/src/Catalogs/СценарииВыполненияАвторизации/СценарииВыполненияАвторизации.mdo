@@ -43,6 +43,13 @@
         <value>000000002</value>
       </code>
     </items>
+    <items id="563f6b16-c8bd-44d8-9c8b-b35c1d083078">
+      <name>Энидеск</name>
+      <description>Энидеск</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>

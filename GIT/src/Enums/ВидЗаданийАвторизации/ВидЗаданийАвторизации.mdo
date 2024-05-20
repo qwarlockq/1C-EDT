@@ -26,4 +26,11 @@
       <value>Ввод кода</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="6dd8ead0-8d1c-4d1d-8873-b6e09b9d7f72">
+    <name>Энидеск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Энидеск</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

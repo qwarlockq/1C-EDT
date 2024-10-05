@@ -9,5 +9,6 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>CommonCommand.ОткрытьЗмейку</content>
   <content>InformationRegister.ТаблицаЛидеров</content>
+  <content>CommonCommand.ОткрытьКлеточныйАвтомат</content>
   <parentSubsystem>Subsystem.Игры</parentSubsystem>
 </mdclass:Subsystem>

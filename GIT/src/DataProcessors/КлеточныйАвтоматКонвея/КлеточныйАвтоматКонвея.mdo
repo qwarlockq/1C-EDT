@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba4f281e-02d6-4d8a-a489-e46a47a3235b">
+  <producedTypes>
+    <objectType typeId="c44672c3-1fb7-49b3-a289-8364aa957228" valueTypeId="6edfa46e-3f5e-492e-a7b6-7a7601401b04"/>
+    <managerType typeId="340cbb9c-4e55-48aa-994b-9e5f116bb2b0" valueTypeId="064a14c0-2a04-4f2b-98ba-ecd5d8a43489"/>
+  </producedTypes>
+  <name>КлеточныйАвтоматКонвея</name>
+  <synonym>
+    <key>ru</key>
+    <value>Клеточный автомат Конвея</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КлеточныйАвтоматКонвея.Form.Форма</defaultForm>
+  <forms uuid="fdf13c48-50c3-4cb0-b9cd-d19ccf7f8665">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="46838884-1c8c-4f2f-9eef-96df23cce557">
+    <name>Поле</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

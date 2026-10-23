@@ -50,9 +50,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <dimensions uuid="74b4fc8c-d665-4235-8a99-3c88d5a1140c">
     <name>ВидЗадания</name>

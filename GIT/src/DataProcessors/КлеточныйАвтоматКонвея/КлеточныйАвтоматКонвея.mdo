@@ -20,7 +20,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="46838884-1c8c-4f2f-9eef-96df23cce557">
+  <templates uuid="c218beb1-5193-43f7-884e-9a880e125c2b">
     <name>Поле</name>
     <synonym>
       <key>ru</key>

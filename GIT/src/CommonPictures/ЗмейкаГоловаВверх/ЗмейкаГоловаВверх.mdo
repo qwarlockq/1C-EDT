@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2c4b9cb-f2ef-46fa-9ea5-83cf7537bac8">
+  <name>ЗмейкаГоловаВверх</name>
+  <synonym>
+    <key>ru</key>
+    <value>Змейка голова вверх</value>
+  </synonym>
+</mdclass:CommonPicture>
